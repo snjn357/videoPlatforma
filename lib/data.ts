@@ -1,21 +1,21 @@
 import { Lesson, Playlist, Subject, Grade } from './types'
 
 export const grades: Grade[] = [
-  { number: 1, label: 'Grade 1' },
-  { number: 2, label: 'Grade 2' },
-  { number: 3, label: 'Grade 3' },
-  { number: 4, label: 'Grade 4' },
-  { number: 5, label: 'Grade 5' },
-  { number: 6, label: 'Grade 6' },
+  { number: 1, label: '1. разред' },
+  { number: 2, label: '2. разред' },
+  { number: 3, label: '3. разред' },
+  { number: 4, label: '4. разред' },
+  { number: 5, label: '5. разред' },
+  { number: 6, label: '6. разред' },
 ]
 
 export const subjects: Subject[] = [
-  { name: 'Mathematics', slug: 'mathematics', icon: 'Calculator', color: 'bg-blue-500' },
-  { name: 'Science', slug: 'science', icon: 'Flask', color: 'bg-green-500' },
-  { name: 'Geography', slug: 'geography', icon: 'Globe', color: 'bg-amber-500' },
-  { name: 'History', slug: 'history', icon: 'Book', color: 'bg-rose-500' },
-  { name: 'English', slug: 'english', icon: 'BookOpen', color: 'bg-indigo-500' },
-  { name: 'Music', slug: 'music', icon: 'Music', color: 'bg-pink-500' },
+  { name: 'Математика', slug: 'mathematics', icon: 'Calculator', color: 'bg-blue-500' },
+  { name: 'Биологија', slug: 'science', icon: 'Flask', color: 'bg-green-500' },
+  { name: 'Географија', slug: 'geography', icon: 'Globe', color: 'bg-amber-500' },
+  { name: 'Историја', slug: 'history', icon: 'Book', color: 'bg-rose-500' },
+  { name: 'Енглески', slug: 'english', icon: 'BookOpen', color: 'bg-indigo-500' },
+  { name: 'Mузичко', slug: 'music', icon: 'Music', color: 'bg-pink-500' },
 ]
 
 export const playlists: Playlist[] = [

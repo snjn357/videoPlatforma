@@ -64,13 +64,13 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
             )}
           >
             <Home className="h-5 w-5" />
-            Home
+            Почетна
           </Link>
 
           {/* Subjects Section */}
           <div className="mt-6">
             <h3 className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-              Subjects
+              Предмети
             </h3>
             <ul className="space-y-1">
               {subjects.map((subject) => {
@@ -100,7 +100,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
           {/* Grades Section */}
           <div className="mt-6">
             <h3 className="mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
-              Grades
+              Разреди
             </h3>
             <ul className="space-y-1">
               {grades.map((grade) => (

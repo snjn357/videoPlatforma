@@ -31,7 +31,7 @@ export function Navbar({ onMenuToggle, isSidebarOpen }: NavbarProps) {
             <GraduationCap className="h-5 w-5 text-primary-foreground" />
           </div>
           <span className="hidden text-xl font-semibold text-foreground sm:inline-block">
-            EduLearn
+            Видео и аудио платформа
           </span>
         </Link>
       </div>
